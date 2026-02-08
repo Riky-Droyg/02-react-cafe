@@ -6,9 +6,3 @@ export interface Votes {
 
 export type VoteType = "good" | "neutral" | "bad";
 
-export type VoteOptions = {
-	onVote: (type: VoteType) => void;
-	onReset: () => void;
-	canReset: boolean;
-};
-
