@@ -1,7 +1,7 @@
 import type { VoteType } from "../../types/votes";
 import css from "./VoteOptions.module.css";
 
-export type VoteOptionsProps = {
+interface VoteOptionsProps {
 	onVote: (type: VoteType) => void;
 	onReset: () => void;
 	canReset: boolean;
